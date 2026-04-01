@@ -1,0 +1,182 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css">
+	<title>Abhimanyu Sharma</title>
+</head>
+
+<body>
+	<!-- =========================================================
+STEP 2: Build the “top area” (site name + navigation) using simple HTML
+========================================================= -->
+
+	<header class="site-header">
+		<div class="container header-inner">
+			<div class=" brand">
+				<a href="#top">Abhimanyu Sharma<span class="dot">.</span></a>
+			</div>
+		</div>
+
+		<nav class="site-nav">
+			<ul>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#highlights">Highlights</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="top">
+		<!-- =========================================================
+STEP 3: Hero section + “Get Started button” as a link
+========================================================= -->
+
+		<section id="hero">
+			<div class="container hero-content">
+				<h1>I can build practical software, learn fast, and ship finished products</h1>
+				<p class="hero-subhead">
+					I'm Abhimanyu Sharma, an Information Sciences student at UW Madison. I'm aiming to become an AI & ML
+					Engineer in the future.
+				</p>
+				<p><a class="btn btn-dark" href="#projects">See My Work</a></p>
+			</div>
+		</section>
+
+		<!-- =========================================================
+STEP 4: Features section (3 blocks) + featured content section
+========================================================= -->
+		<section class="features" id="highlights">
+			<div class="container">
+				<h2 class="section-title">Highlights</h2>
+
+				<div class="features-grid">
+					<div class="feature">
+						<img src="images/coding_icon.png" class="icon">
+						<h3>Web Development</h3>
+						<p>
+							I built this portfolio using web technologies and have experience
+							working with tools like Flask, React, and CSS libraries to create
+							clean, organized interfaces.
+						</p>
+					</div>
+
+					<div class="feature">
+						<img src="images/AI_Icon.png" class="icon">
+						<h3>Machine Learning</h3>
+						<p>
+							I have a strong interest in AI and machine learning, especially
+							LLMs, robotics, and frameworks like PyTorch that support model
+							development and experimentation.
+						</p>
+					</div>
+
+					<div class="feature">
+						<img src="images/briefing_icon.png" class="icon">
+						<h3>Project Development</h3>
+						<p>
+							I like learning new technologies and applying them to build
+							projects that solve practical, real-world problems.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="featured" id="projects">
+			<div class="container">
+				<h2 class="section-title">Featured Project</h2>
+				<p class="section-lede">
+					One of the projects I am most proud of is my housing price predictor,
+					an end-to-end machine learning project built around data preprocessing,
+					model training, and evaluation.
+				</p>
+
+				<div class="media">
+					<img src="images/house.jpg" class="media">
+				</div>
+
+				<h3>Housing Price Predictor</h3>
+				<p>
+					This project uses machine learning to predict housing prices from a
+					dataset of home features. I worked on cleaning data, preparing
+					features, training models, and evaluating performance to build a full
+					pipeline from raw data to results.
+				</p>
+				<p>
+					<a class="btn btn-outline" href="#">View Repo</a>
+				</p>
+			</div>
+		</section>
+
+		<!-- =========================================================
+STEP 5: Two secondary content blocks + CTA section 
+========================================================= -->
+
+		<section class="secondary" id="about">
+			<div class="container secondary-grid">
+				<div class="card">
+					<div class="card-text">
+						<h3>What I am looking for</h3>
+						<p>
+							I am looking for opportunities to grow as a software engineer,
+							contribute to meaningful projects, and gain real-world experience
+							through internships and technical work
+						</p>
+						<a class="btn btn-outline" href="#contact">Get in touch with me</a>
+					</div>
+
+				</div>
+
+				<div class="card">
+					<div class="card-text">
+						<h3>What I am doing now</h3>
+						<p>
+							I am focused on coursework, strengthening my CS foundations, and building portfolio projects
+							in software engineering and machine learning
+						</p>
+						<a class="btn btn-outline" href="#projects">See my projects</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="cta" id="contact">
+			<div class="container cta-inner">
+				<h2 class="section-title">Heard enough?</h2>
+				<p>
+					<a class="btn btn-dark" href="mailto:abhisea12@gmail.com">Email Me</a>
+				</p>
+			</div>
+		</section>
+	</main>
+
+	<!-- =========================================================
+STEP 6: Footer 
+========================================================= -->
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<div class="footer-left">
+				<p>2026 Abhimanyu Sharma</p>
+			</div>
+
+				<div class="footer-col">
+					<h4>Sites</h4>
+					<a href="www.linkedin.com/in/abhimanyu-sharma-96a574230">Linkedin</a>
+					<a href="#contact">Github</a>
+					<a href="https://docs.google.com/document/d/1yljCixmYao3dkfIM-oV3TdSUf31gkgN0ynKqVatElyY/edit?usp=sharing">Resume</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
